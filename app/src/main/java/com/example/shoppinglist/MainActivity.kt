@@ -1,7 +1,6 @@
 package com.example.shoppinglist
 import ItemInput
 import SearchInput
-import ShoppingList
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -26,6 +25,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.shoppinglist.component.Title
+import com.example.shoppinglist.components.ShoppingList
 import com.example.shoppinglist.ui.theme.ShoppingListTheme
 
 class MainActivity : ComponentActivity() {
