@@ -1,4 +1,4 @@
-package com.example.shoppinglist
+package com.example.shoppinglist.screen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

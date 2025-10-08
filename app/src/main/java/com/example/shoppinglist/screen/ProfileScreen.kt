@@ -1,4 +1,4 @@
-package com.example.shoppinglist
+package com.example.shoppinglist.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -15,6 +15,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.shoppinglist.R
 import com.example.shoppinglist.ui.theme.ShoppingListTheme
 
 @Composable

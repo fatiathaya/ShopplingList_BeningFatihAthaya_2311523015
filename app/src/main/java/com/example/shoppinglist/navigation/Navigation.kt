@@ -1,4 +1,4 @@
-package com.example.shoppinglist
+package com.example.shoppinglist.navigation
 
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
@@ -17,6 +17,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.*
+import com.example.shoppinglist.ShoppingListApp
+import com.example.shoppinglist.screen.ProfileScreen
+import com.example.shoppinglist.screen.SettingsScreen
 import kotlinx.coroutines.launch
 
 // Sealed class untuk merepresentasikan setiap layar
